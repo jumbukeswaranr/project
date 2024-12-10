@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*---header-start*/
+.header{
+    background-image:url(../images/hero-1.jpg);
+    background-position:top 25% right 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.head{
+    background:linear-gradient( to right #ffffff,#1977cc) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    opacity:2;
+}
+.header .container-fluid{
+    opacity: 1 !important;
+}
+.header .navbar .navbar-brand{
+    color: #571b94ad;
+    font-size: 30px;
+    font-weight: 500;
+}
+.header .navbar-nav{
+    margin: 0px 0px 0px 300px ;
+    padding: 0px 0px 0px 0px;
+}
+.header .navbar-nav .nav-item{
+    margin: 0px 25px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.header .navbar-nav .nav-item a{
+    color: #2c4964 !important;
+    font-size: 18px !important;
+
+}
+.header .navbar-nav .nav-item a:hover{
+    color:#1977cc;
+}
+.header .cont-1{
+    padding: 100px 0px 0px 0px;
+}
+.header .cont-1 .left-1{
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 0px 100px;
+}
+.header .cont-1 .left-1 h2{
+    color: #2c4964;
+    font-size: 48px;
+    font-weight: 700;
+}
+.header .cont-1 .left-1 p{
+    color: #444444;
+    font-size: 25px;
+}
+.header .cont-2 .common{
+    display: flex;
+
+}
+.header .cont-2 .card-1{
+    display: flex;
+    box-shadow: 0px 0px 20px silver;
+    margin: 20px;
+    padding: 20px;
+    gap: 10px;
+    position: relative;
+    top: 0;
+    transition: .4s;
+    background-color: #1977cc;
+
+}
+.header .cont-2 .card-1:hover{
+    top: -12px;
+    z-index:10;
+}
+
+.header .cont-2 .card-1 .content{
+    display: flex;
+    flex-direction: column;
+}
+.header .cont-2 .card-1 .content h3{
+    font-size: 34px;
+    font-size: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.header .cont-2 .card-1 .content p{
+    font-size: 15px;
+    font-weight: 500;
+    color:#fdfcfc;
+    margin-bottom: 30px;
+}
+.header .cont-2 .card-1 .content .btn button{
+    background: transparent;
+    color: #fcfbfc;
+    padding: 10px 25px 10px 25px;
+    border-radius: 25px;
+    border: #1977cc solid;
+    transition: all 0.7s;
+
+}
+.header .cont-2 .card-1 .content .btn button:hover{
+    background-color: #ffff;
+    border-color: #ffff;
+    color: #1977cc;
+}
+.header .cont-2 .card{
+    display: flex;
+    box-shadow: 0px 0px 20px silver;
+    margin: 20px;
+    padding: 20px;
+    gap: 10px;
+    position: relative;
+    top: 0;
+    transition: .4s;
+
+}
+.header .cont-2 .card:hover{
+    top: -12px;
+    z-index:10;
+}
+.header .cont-2 .card{
+    display: flex;
+    box-shadow: 0px 0px 20px silver;
+    margin: 20px;
+    padding: 20px;
+    gap: 10px;
+    position: relative;
+    top: 0;
+    transition: .4s;
+    align-items: center;
+
+}
+.header .cont-2 .card:hover{
+    top: -12px;
+    z-index: 10;
+}
+.header .cont-2 .card .content-1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+.header .cont-2 .card .content-1 h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c4964;
+    margin: 10px 0 20px 0;
+}
+.header .cont-2 .card .content-1 p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #444444;
+    margin-bottom: 50px;
+
+}
+.header .cont-2 .card .icon i{
+    font-size:40px;
+    color: #1977cc;
+    border-radius: 10px;
+}
+.header .cont-2 .card .icon i:hover{
+    color: #fff;
+    background-color: #1977cc;
+}
+
+/*---header-end*/
+
+
+/*---body-start*/
+
+.body-1{
+    margin: 0px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
+}
+.section-padding{
+    padding: 90px;
+}
+.cont-3{
+    margin-left: 40px;
+}
+.body-1 .h3{
+    color:#2c4964;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+}
+.body-1 p{
+    font-size: 15px;
+    color: #444444;
+    font-weight: 500;
+}
+.body-1 .media{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.body-1 .media i{
+    font-size: 30px;
+    color: #1977cc;
+}
+.body-1 .media i .one{
+    display: inline-block;
+    margin: 20px 0px 0px 0px !important;
+    padding: 20px 0px 0px 0px!important;
+}
+.body-1 .media i .para-1{
+    display: inline-block;
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px;
+}
+
+.body-1 .common{
+    padding: 50px 0px 0px 0px;
+    display: flex;
+}
+.body-1 .common .card{
+    display: flex;
+    margin: 50px;
+    padding: 50px;
+    gap: 10px;
+    position: relative;
+    box-shadow: #abbbe7;
+    transition: .4s;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.body-1 .common .card i{
+    font-size: 24px;
+    position: relative;
+    color: #ffff;
+    background-color: #1977cc;
+    border-radius: 50px;
+    border: 1px #ffff;
+    width: 54px;
+    height: 54px;
+    align-items: center !important;
+    justify-content: center;
+    display: inline-flex;
+    z-index: 1;
+}
+.body-1 .common .card .new{
+    display: flex;
+    flex-direction: column;
+
+}
+.body-1 .common .card .new span{
+    font-size: 25px;
+    color: #000;
+}
+.body-1 .common .card .new p{
+    font-size: 15px;
+    color: #444444;
+}
+
+
+
+/*-------------body-2 start-------------*/
+/*---center-4-start*/
+.body-2{
+    padding: 0px 0px 50px 0px;
+}
+.body-2 h2{
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #2c4964;
+    position: relative;
+
+}
+.body-2 .go{
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #444444;
+
+}
+.body-2 p{
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fffff;
+
+}
+.body-2 .center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.body-2 .center .box-1{
+    padding: 60px 10px 10px 10px;
+    margin: 0px 20px 20px 0px;
+    display: inline-block;
+    width: 260px;
+    height: 320px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    transition: all 0.7s;
+    background-color: #f3f6ff;
+    box-shadow: 2px 2px 20px;
+    background-position: top 48px left 52%;
+    z-index: 1;
+
+
+
+}
+.body-2 .center .box-1:hover{
+    background-color: #1977cc;
+    color: #ffff;
+    box-shadow: 2px 2px 20px #1977cc;
+}
+.body-2 .center .box-1 .icon i{
+    font-size: 50px;
+    color: #fff;
+    transition: all 0.7s;
+}
+/*---center-4-end*/
+
+/*-------------body-2 end-------------*/
+
+
+/*-------------body-3 start-------------*/
+
+.body-3 h2{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-weight: 700;
+    color: #2c4964;
+    font-size: 34px;
+}
+.body-3 p{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #444444;
+}
+.body-3 .dot{
+    display:flex;
+
+}
+.body-3 .card-1 .img-card{
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    margin-bottom: 24px;
+    transition: 2s linear;
+    
+    
+}
+.body-3 .card-1 .img-card img{
+    width: 300px;
+    height: 200px;
+    transition: 2s linear;
+    &&:hover{
+    transform: scale(2);
+    filter: none;
+}
+
+
+
+/*-------------body-3 end-------------*/
+
+
+/*-------------body-4 start-------------*/
+
+
+.body-4{
+    padding: 50px 0px 0px 0px;
+}
+.body-4 h2{
+    text-align: center;
+}
+.body-4 p{
+    text-align: center;
+}
+
+
+.common{
+    display: flex;
+    
+}
+.card{
+    display: flex;
+    box-shadow: 0px 0px 10px silver;
+    margin: 20px;
+    padding: 20px;
+    background: #ffff;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+    transition:.4s;
+    top: 0px;
+}
+.card:hover{
+    top: 12px;
+    z-index: 10;
+}
+
+.card>.img>.img-card{
+    height: 150px;
+    border-radius: 150px;
+    flex-direction: column;
+}
+.card>.content{
+    display: flex;
+    flex-direction:column ;
+    gap: 6;
+}
+.card>.content>hr{
+    width: 120px;
+    border: none;
+    background-color: #616161;
+    height: 1px;
+}
+.card>.content>h2{
+    font-size: 22px;
+    color: hsl(310, 98%, 58%);
+}
+.card>.content>h4{
+    font-size: 18px;
+    color: hsl(305, 94%, 52%);
+}
+.card>.content>p{
+    font-size: 15px;
+    color: hsl(310, 91%, 57%);
+}
+.card>.content>.media{
+    display: flex;
+    gap: 10px;
+
+}
+.card>.content>.media i{
+    background-color:#e4e4e4;
+    border-radius: 40px;
+    padding: 8px;
+}
+.card>.content>.media i:hover{
+    background-color: #25bcf8;
+    color: #ffff;
+}
+
+
+
+
+/*-------------body-4 end-------------*/
